@@ -218,6 +218,7 @@
   var span = document.getElementsByClassName("close-btn")[0];
 
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
+  const btn = document.getElementById("openModal");
   btn.onclick = function (e) {
     e.preventDefault(); // Mencegah link pindah ke atas halaman (perlu jika href="#")
     modal.style.display = "block";
