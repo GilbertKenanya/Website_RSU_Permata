@@ -1781,7 +1781,7 @@ section,
 
 .icon-box .bpjs-logo-icon {
   /* Mengatur logo sebagai background image */
-  background-image: url("/assets/img/bpjs.png"); /* Ganti dengan URL/path logo Anda */
+  background-image: url("../img/bpjs.png"); /* Ganti dengan URL/path logo Anda */
 
   /* Memastikan gambar background tidak diulang */
   background-repeat: no-repeat;
@@ -1809,7 +1809,7 @@ section,
 
 .icon-box .larsdhp {
   /* Mengatur logo sebagai background image */
-  background-image: url("/assets/img/larsdhp.png"); /* Ganti dengan URL/path logo Anda */
+  background-image: url("../img/larsdhp.png"); /* Ganti dengan URL/path logo Anda */
 
   /* Memastikan gambar background tidak diulang */
   background-repeat: no-repeat;
@@ -1837,7 +1837,7 @@ section,
 
 .icon-box .igd {
   /* Mengatur logo sebagai background image */
-  background-image: url("/assets/img/LogoRSUP.png"); /* Ganti dengan URL/path logo Anda */
+  background-image: url("../img/LogoRSUP.png"); /* Ganti dengan URL/path logo Anda */
 
   /* Memastikan gambar background tidak diulang */
   background-repeat: no-repeat;
