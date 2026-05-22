@@ -218,14 +218,10 @@
   var span = document.getElementsByClassName("close-btn")[0];
 
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
-  const btn = document.getElementById("openPopupBtn");
-
-  if (btn && modal) {
-    btn.onclick = function (e) {
-      e.preventDefault();
-      modal.style.display = "block";
-    };
-  }
+  btn.onclick = function (e) {
+    e.preventDefault(); // Mencegah link pindah ke atas halaman (perlu jika href="#")
+    modal.style.display = "block";
+  };
 
   // 2. Ketika tombol silang (x) diklik, sembunyikan modal
   span.onclick = function () {
