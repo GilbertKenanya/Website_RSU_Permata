@@ -220,7 +220,7 @@
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
   const btn = document.getElementById("openPopupBtn");
 
-  if (btn) {
+  if (btn && modal) {
     btn.onclick = function (e) {
       e.preventDefault();
       modal.style.display = "block";
