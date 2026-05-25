@@ -206,7 +206,7 @@
   var btn = document.getElementById("openPopupBtnMCU");
 
   // Ambil elemen tombol silang
-  var span = document.getElementsByClassName("close-btn1")[0];
+  var span = document.getElementsByClassName("close-btn")[0];
 
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
   btn.onclick = function (e) {
