@@ -1866,6 +1866,54 @@ section,
 /* ==================================== */
 /* 1. CONTAINER MODAL (LAPISAN LUAR) */
 /* ==================================== */
+/* ==================================== */
+/* 1. CONTAINER MODAL (LAPISAN LUAR) */
+/* ==================================== */
+.modal1 {
+  /* Menyembunyikan pop-up secara default */
+  display: none;
+
+  /* Memastikan pop-up selalu di atas semua elemen lain */
+  position: fixed;
+  z-index: 1000;
+
+  /* Mengisi seluruh layar */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Latar belakang hitam transparan (overlay) */
+  background-color: rgba(0, 0, 0, 0.6);
+
+  /* Memungkinkan scroll jika isi modal terlalu panjang */
+  overflow: auto;
+}
+
+/* ==================================== */
+/* 2. ISI KOTAK POP-UP (.modal-content) */
+/* ==================================== */
+.modal1-content {
+  background-color: #fefefe;
+
+  /* Memusatkan kotak di tengah layar */
+  margin: 10% auto;
+
+  /* Padding di dalam kotak */
+  padding: 30px;
+
+  /* Batasan lebar */
+  width: 90%;
+  max-width: 600px; /* Batas maksimum lebar agar nyaman dibaca */
+
+  /* Tampilan visual */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+  /* Diperlukan untuk menata posisi tombol silang (absolute) */
+  position: relative;
+}
+
 .modal {
   /* Menyembunyikan pop-up secara default */
   display: none;
