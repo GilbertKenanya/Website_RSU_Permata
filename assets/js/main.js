@@ -197,15 +197,6 @@
   window.addEventListener("load", navmenuScrollspy);
   document.addEventListener("scroll", navmenuScrollspy);
 
-  // Ambil elemen modal (kotak pop-up)
-  var modal1 = document.getElementById("myModal");
-
-  // Ambil tombol pemicu menggunakan ID baru
-  var btn1 = document.getElementById("openPopupBtn");
-
-  // Ambil elemen tombol silang
-  var span1 = document.getElementsByClassName("close-btn")[0];
-
   // Untuk MCU
 
   // Ambil elemen modal (kotak pop-up)
@@ -215,7 +206,7 @@
   var btn = document.getElementById("openPopupBtnMCU");
 
   // Ambil elemen tombol silang
-  var span = document.getElementsByClassName("close-btn")[0];
+  var span = document.getElementsByClassName("close-btn1")[0];
 
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
   btn.onclick = function (e) {
@@ -232,24 +223,6 @@
   window.onclick = function (event) {
     if (event.target == modal) {
       modal.style.display = "none";
-    }
-  };
-
-  // 1. Ketika tombol "Learn More" diklik, tampilkan modal
-  btn1.onclick = function (e) {
-    e.preventDefault(); // Mencegah link pindah ke atas halaman (perlu jika href="#")
-    modal1.style.display = "block";
-  };
-
-  // 2. Ketika tombol silang (x) diklik, sembunyikan modal
-  span1.onclick = function () {
-    modal1.style.display = "none";
-  };
-
-  // 3. Ketika pengguna mengklik di luar modal, tutup modal
-  window.onclick = function (event) {
-    if (event.target == modal1) {
-      modal1.style.display = "none";
     }
   };
 })();
