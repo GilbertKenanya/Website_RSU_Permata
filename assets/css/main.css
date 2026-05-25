@@ -1862,7 +1862,9 @@ section,
   /* Memberi jarak di bawah logo (antara logo dan judul) */
   margin-bottom: 15px;
 }
-
+.Sejarah {
+  background-color: #f2f2f2;
+}
 /* ==================================== */
 /* 1. CONTAINER MODAL (LAPISAN LUAR) */
 /* ==================================== */
