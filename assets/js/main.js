@@ -236,8 +236,8 @@
   };
 
   // 1. Ketika tombol "Learn More" diklik, tampilkan modal
-  btn1.onclick = function (a) {
-    a.preventDefault(); // Mencegah link pindah ke atas halaman (perlu jika href="#")
+  btn1.onclick = function (e) {
+    e.preventDefault(); // Mencegah link pindah ke atas halaman (perlu jika href="#")
     modal1.style.display = "block";
   };
 
