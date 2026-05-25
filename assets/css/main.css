@@ -1866,10 +1866,7 @@ section,
 /* ==================================== */
 /* 1. CONTAINER MODAL (LAPISAN LUAR) */
 /* ==================================== */
-/* ==================================== */
-/* 1. CONTAINER MODAL (LAPISAN LUAR) */
-/* ==================================== */
-.modal1 {
+.modal {
   /* Menyembunyikan pop-up secara default */
   display: none;
 
@@ -1914,6 +1911,58 @@ section,
   position: relative;
 }
 
+/* ==================================== */
+/* 3. TOMBOL SILANG (X) */
+/* ==================================== */
+.close-btn {
+  color: #888;
+
+  /* Memosisikan di pojok kanan atas modal-content */
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1; /* Agar simbol 'x' tidak terpotong */
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ==================================== */
+/* 4. STYLING ISI TEKS (OPSIONAL) */
+/* ==================================== */
+.modal1-content h2 {
+  color: #d4933d;
+  font-size: 24px;
+  margin-top: 0;
+
+  /* --- PENAMBAHAN UNTUK MENGATUR POSISI JUDUL DI TENGAH --- */
+  text-align: center;
+
+  border-bottom: 2px solid #e59345;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.modal1-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  /* --- PENAMBAHAN UNTUK MENGATUR RATA KANAN KIRI --- */
+  text-align: justify;
+  /* Margin bawah paragraf akan memisahkan paragraf satu sama lain */
+  margin-bottom: 15px;
+}
+
+/* ==================================== */
+/* 1. CONTAINER MODAL (LAPISAN LUAR) */
+/* ==================================== */
 .modal {
   /* Menyembunyikan pop-up secara default */
   display: none;
